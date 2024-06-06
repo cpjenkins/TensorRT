@@ -2,6 +2,7 @@ import torch
 import torch_tensorrt
 from parameterized import parameterized
 from torch.testing._internal.common_utils import TestCase, run_tests
+from parameterized import parameterized
 
 from ..testing_utilities import DECIMALS_OF_AGREEMENT, lower_graph_testing
 
